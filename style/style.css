@@ -1,9 +1,11 @@
-h1 {
+h1,
+.background-mid h3,
+.dark-text-box h3 {
     font-family: 'Calistoga', cursive; 
     color: white;
 }
 
-h3 {
+h3, h4 {
     font-family: 'Calistoga', cursive;
 }
 
@@ -13,8 +15,10 @@ h3 {
     background-size: cover;
 }
 
-.centered {
-    text-align: center;        
+.about-us-img {
+    background: url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
+    height: auto;
+    background-size: cover;
 }
 
 .carousel-item{
@@ -28,6 +32,26 @@ h3 {
     object-fit: cover;
 }
 
+.background-dk {
+    background: black;
+}
+
+.dark-text-box {
+    background: rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: auto;
+    margin: 10px 50px 10px 50px;
+}
+
+.about-us-text {
+    color: white;
+}
+
+/* .menu-img {
+    background-image: url(/img/nathan-dumlao-tA90pRfL2gM-unsplash.jpg);
+    width: 100%;
+} */
+
 .site-footer {
     /* background-image: url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg); */
     padding: 20px 0; }
@@ -37,3 +61,6 @@ h3 {
         padding: 2rem;
         
     }
+.background-mid {
+    background: #4281a4;    
+}
