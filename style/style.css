@@ -16,7 +16,7 @@ h2, h3, h4 {
   background-attachment: fixed;
   background-size:cover;
   color:white !important;
-  height:60vh;
+  height:75vh;
   }
 
 .about-us-img {
@@ -25,10 +25,11 @@ h2, h3, h4 {
     background-size: cover;
 }
 
-.menu-img-1 {
+.menu-img {
+    background: url(/img/toa-heftiba-W6sqUYlJRiw-unsplash.jpg);
     height: auto;
     background-size: cover;
-    
+    background-repeat: no-repeat;
 }
 .carousel-item{
     width: 100%;
@@ -52,7 +53,7 @@ h2, h3, h4 {
     margin: 10px 50px 10px 50px;
 }
 
-.about-us-text {
+.light-text {
     color: white;
 }
 
@@ -61,10 +62,6 @@ h2, h3, h4 {
     height: auto;
 }
 
-.site-footer {
-    /* background-image: url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg); */
-    padding: 20px 0; }
-
 .card {
         background: #1a181b;
         padding: 2rem;
@@ -72,4 +69,16 @@ h2, h3, h4 {
     }
 .background-mid {
     background: #4281a4;    
+}
+
+footer a {
+    color: white;
+}
+
+.page-footer {
+    color: white;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Cafe\ Image\ 1.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
 }
