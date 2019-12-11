@@ -9,8 +9,8 @@ h2, h3, h4 {
     font-family: 'Calistoga', cursive;
 }
 
-.jumbotron{    
-      background: 
+.jumbotron {    
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
   url("/img/Cafe\ Image\ 1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,6 +18,13 @@ h2, h3, h4 {
   color:white;
   height:75vh;
   }
+
+
+/* .abs-center-x {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+} */
 
 .about-us-img {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg);

@@ -13,20 +13,67 @@
     <title>Healthy Steps Cafe</title>
 </head>
 <body>
-
-<!-- Navigation - Hamburger Menu -->
-<nav></nav>
-
+  <!-- Navigation -->
+      <nav class="navbar navbar-light bg-light navbar-expand-md justify-content-center">     
+          <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+              <span class="navbar-toggler-icon navbar-light"></span>
+          </button>
+          <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+              <ul class="navbar-nav mx-auto text-center">
+                  <li class="nav-item active">
+                      <a class="nav-link" href="#menu-jump">Menu <span class="sr-only">Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#about-jump">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#location-jump">Locations</a> 
+                  </li>
+              </ul>
+          </div>
+      </nav>
+  
 <!-- Jumbotron Company Image and Menu Button-->
-<div class="jumbotron jumbotron-fluid cafe-img">
+<header class="jumbotron jumbotron-fluid d-flex align-items-center cafe-img">
     <div class="container">
       <h1 class="display-2 text-center">Healthy Steps Cafe</h1>
-      <h2 class="lead text-center display-4">A healthy eatery and lifestyle cafe</h2>
+      <h2 class="lead text-center display-5">A healthy eatery and lifestyle cafe</h2>
       <div class="text-center">
         <a href="#menu-jump"class="btn btn-dark mt-3">Our Menu</a>      
       </div>
     </div>
-  </div>
+</header>
+
+
+<!-- Navigation-->
+<!-- <nav class="navbar navbar-expand-md justify-content-center cafe-img">
+
+
+      <h1 class="display-2 text-center">Healthy Steps Cafe</h1>
+          <div class="container">     
+            <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Link <span class="sr-only">Home</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="//codeply.com">Codeply</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a> 
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <h2 class="lead text-center display-4">A healthy eatery and lifestyle cafe</h2> -->
+           <!-- <div class="text-center">
+            <a href="#menu-jump"class="btn btn-dark mt-3">Our Menu</a>      
+          </div>
+
+      </nav> -->
 
 <!-- Image Slider -->
 <div id="menuCarousel" class="carousel slide" data-ride="carousel">
@@ -57,7 +104,7 @@
       </div>
 
 <!-- Fixed Background About Us Message -->
-  <div class="about-us-img my-auto">
+  <div class="about-us-img my-auto" id="about-jump">
   <br>
     <div class="light-text dark-text-box pb-3">
       <h3 class="text-center">About Us</h3>
@@ -68,10 +115,10 @@
 
 <!-- Menu Info -->
 
-<div class="menu-img my-auto">
+<div class="menu-img my-auto" id="menu-jump" >
   <br>
       <div class="light-text dark-text-box mb-3">
-        <h3 id="menu-jump" class="text-center pt-3 mb-3">Explore Our Menu</h3>
+        <h3 class="text-center pt-3 mb-3">Explore Our Menu</h3>
         <div class="mb-3 text-center">
             <a href="/"target="blank" class="btn btn-dark">Order Online</a>            
           </div>
@@ -114,7 +161,7 @@
     </div>
 
 <!-- Cafe Locations -->
-        <div class="location-img mx-auto pb-3">
+        <div class="location-img mx-auto pb-3" id="location-jump">
           <h3 class="text-center pt-3 pb-3">Our Locations</h3>
           <div class="container">   
               <div class="row">                
@@ -214,5 +261,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- <script src="/js/scripts.js"></script> -->
 </body>
 </html>
