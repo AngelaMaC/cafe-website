@@ -19,12 +19,9 @@ h2, h3, h4 {
   height:75vh;
   }
 
-
-/* .abs-center-x {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-} */
+nav {
+    background: #2A2D34;
+}
 
 .about-us-img {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
