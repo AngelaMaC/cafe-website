@@ -9,6 +9,15 @@ h2, h3, h4 {
     font-family: 'Calistoga', cursive;
 }
 
+a {
+    color: #bac1b8;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
 .jumbotron {    
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
   url("/img/Cafe\ Image\ 1.jpg");
@@ -17,6 +26,7 @@ h2, h3, h4 {
   background-size:cover;
   color:white;
   height:75vh;
+  margin: 0;
   }
 
 nav {
@@ -85,8 +95,13 @@ nav {
     background: #4281a4;    
 }
 
-footer a {
-    color: white;
+footer a, a.btn, i {
+    color: white;    
+}
+
+footer a:hover, a.btn:hover {
+    text-decoration: none;
+    color: #bac1b8;
 }
 
 .page-footer {
