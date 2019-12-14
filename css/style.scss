@@ -1,0 +1,113 @@
+$color-primary: #2A2D34;
+$color-secondary: #4281A4;
+$color-pale: #BAC1B8;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+$color-transparent-black-gradient: rgba(0, 0, 0, 0.5);
+
+h1,
+.background-mid h3,
+.dark-text-box h3 {
+    font-family: 'Calistoga', cursive; 
+}
+
+h2, h3, h4 {
+    font-family: 'Calistoga', cursive;
+}
+
+a {
+    color: $color-pale;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron {    
+    background: linear-gradient(to right, $color-transparent-black, $color-transparent-black-gradient),
+  url("/img/cafe-img-1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  color:white;
+  height:75vh;
+  margin: 0;
+  }
+
+nav {
+    background: $color-primary;
+}
+
+.about-us {
+    background: $color-pale;
+    max-width: 100%;
+    height: auto;
+}
+.menu-img {
+    background: url("/img/toa-heftiba-W6sqUYlJRiw-unsplash.jpg");
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.location-img {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cafe-img-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color:white;
+    height:auto;
+}
+
+.carousel-item{
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.background-dk {
+    background: black;
+}
+
+.dark-text-box {
+    background: $color-transparent-black;
+    width: auto;
+    height: auto;
+    margin: 0px 20px 0px 20px;
+    
+}
+
+.light-text {
+    color: white;
+}
+
+.card {
+        background: $color-primary;
+        padding: 2rem;        
+    }
+
+.background-mid {
+    background: $color-secondary;    
+}
+
+footer a, a.btn, i {
+    color: white;    
+}
+
+footer a:hover, a.btn:hover {
+    text-decoration: none;
+    color: $color-pale;
+}
+
+.page-footer {
+    color: white;
+    background: linear-gradient(to right, $color-transparent-black, $color-transparent-black-gradient), url("/img/cafe-img-1.jpg");
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+

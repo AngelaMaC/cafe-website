@@ -19,7 +19,7 @@ a:hover {
 
 .jumbotron {    
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-  url("/img/Cafe\ Image\ 1.jpg");
+  url("/img/cafe-img-1.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size:cover;
@@ -44,7 +44,7 @@ nav {
     background-repeat: no-repeat;
 }
 .location-img {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Cafe\ Image\ 1.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cafe-img-1.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
@@ -99,7 +99,7 @@ footer a:hover, a.btn:hover {
 
 .page-footer {
     color: white;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/Cafe\ Image\ 1.jpg);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/cafe-img-1.jpg");
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
