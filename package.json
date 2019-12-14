@@ -5,9 +5,16 @@
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run lite",
+    "start": "npm run watch:all",
     "scss": "node-sass -o css/ css/",
-    "lite": "lite-server"
+    "lite": "lite-server",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "watch:scss": "onchange \"css/*.scss\" -- npm run scss",
+    "imagemin": "imagemin img/* -o dist/img",
+    "clean": "rimraf dist",
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "usemin": "usemin locations.html -d dist --htmlmin -o dist/locations.html && usemin menu.html -d dist --htmlmin -o dist/menu.html && usemin events.html -d dist --htmlmin -o dist/events.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "watch:all": "parallelshell \"npm run watch:scss\" \"npm run lite\""
   },
   "repository": {
     "type": "git",
@@ -20,8 +27,14 @@
   },
   "homepage": "https://github.com/AngelaMaC/cafe-website#readme",
   "devDependencies": {
+    "copyfiles": "^2.0.0",
+    "imagemin-cli": "^3.0.0",
     "lite-server": "^2.3.0",
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.12.0",
+    "onchange": "^3.3.0",
+    "parallelshell": "^3.0.1",
+    "rimraf": "^2.6.2",
+    "usemin-cli": "^0.5.1"
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
