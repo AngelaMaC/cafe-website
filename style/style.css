@@ -32,12 +32,11 @@ nav {
     background: #2A2D34;
 }
 
-.about-us-img {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url(/img/the-creative-exchange-d1ngW7SNehM-unsplash.jpg);
-    height: 50vh;    
-    background-size: cover;
+.about-us {
+    background: #bac1b8;
+    max-width: 100%;
+    height: auto;
 }
-
 .menu-img {
     background: url(/img/toa-heftiba-W6sqUYlJRiw-unsplash.jpg);
     height: auto;
@@ -80,16 +79,11 @@ nav {
     color: white;
 }
 
-.menu-img {
-    max-width: 100%;
-    height: auto;
-}
-
 .card {
         background: #1a181b;
-        padding: 2rem;
-        
+        padding: 2rem;        
     }
+
 .background-mid {
     background: #4281a4;    
 }
@@ -110,3 +104,4 @@ footer a:hover, a.btn:hover {
     background-size: auto;
     background-repeat: no-repeat;
 }
+
